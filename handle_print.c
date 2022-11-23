@@ -33,7 +33,7 @@ unknow_len += write(1, "%%", 1);
 if (fmt[*ind - 1] == ' ')
 unknow_len += write(1, " ", 1);
 else if (width)
-{	  
+{
 --(*ind);
 while (fmt[*ind] != ' ' && fmt[*ind] != '%')
 --(*ind);
